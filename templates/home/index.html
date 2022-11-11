@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Spring Fun</title>
     <style>
+
         #wrapper {
             height:100px;
             width:400px;
@@ -31,15 +32,16 @@
 <body>
 <h1>This is my spring project</h1>
 <div id="wrapper">
-    
+
     <div id="left">
-        <form action="" method="post">
-            <input type="text" name="fname" placeholder="First name">
-            <input type="text" name="lname" placeholder="Last name">
+        <form action="personData" method="post">
+            <input type="text" name="first_name" placeholder="First name">
+            <input type="text" name="last_name" placeholder="Last name">
+            <input type="text" name="age" placeholder="Age">
             <input type="submit" value="Send data">
         </form>
     </div>
-       
+
     <div id="right">
         <input type="radio" name="Vehicle" checked>I am a bike<br>
         <input type="radio" name="Vehicle">I am a car<br>
